@@ -1,0 +1,24 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="urn:MagicSquare">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <ns1:magicResponse>
+         <result xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="xsd:int[][3]">
+            <item xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="xsd:int[3]">
+               <item xsi:type="xsd:int">6</item>
+               <item xsi:type="xsd:int">1</item>
+               <item xsi:type="xsd:int">8</item>
+            </item>
+            <item xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="xsd:int[3]">
+               <item xsi:type="xsd:int">7</item>
+               <item xsi:type="xsd:int">5</item>
+               <item xsi:type="xsd:int">3</item>
+            </item>
+            <item xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="xsd:int[3]">
+               <item xsi:type="xsd:int">2</item>
+               <item xsi:type="xsd:int">9</item>
+               <item xsi:type="xsd:int">4</item>
+            </item>
+         </result>
+      </ns1:magicResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

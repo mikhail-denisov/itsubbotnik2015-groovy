@@ -1,0 +1,12 @@
+<soapenv:Envelope 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+	xmlns:urn="urn:MagicSquare">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:magic soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <rank xsi:type="xsd:int">3</rank>
+      </urn:magic>
+   </soapenv:Body>
+</soapenv:Envelope>

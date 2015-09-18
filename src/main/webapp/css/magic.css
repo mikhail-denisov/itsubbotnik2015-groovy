@@ -1,0 +1,21 @@
+table, td, th {
+	font-size:40px;
+    border: 2px solid green;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Verdana'
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+.magic {
+	color: blue;
+	font-size:20px;
+	font-family: 'Consolas'
+}
+
+
+
